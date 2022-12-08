@@ -1,0 +1,23 @@
+{
+  "name": "three-ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build:dev": "parcel build",
+    "build:prod": "parcel build --no-source-maps",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.1"
+  },
+  "dependencies": {
+    "@types/three": "^0.146.0",
+    "lil-gui": "^0.17.0",
+    "three": "^0.147.0"
+  }
+}
